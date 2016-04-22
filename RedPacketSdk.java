@@ -34,6 +34,7 @@ public class RedPacketSdk {
     public View getRedPacketView(Activity activity, RedPacketViewListener redPacketViewListener) {
         RedPacketUI view = new RedPacketUI(activity, redPacketViewListener);
         mRedPacketUIList.add(view);
+	int 
         return view;
     }
 
